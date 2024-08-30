@@ -1,32 +1,70 @@
 body {
     margin: 0;
 }
+
+/* Header Section for desktops */
+
 .navbar {
     display: flex;
+    margin: 0 auto;
     width: 100%;
     justify-content: space-around;
-    border-bottom: 1px solid black;
-    height: 100px;
+    height: auto;
     align-items: center;
+    background-color: #D8C7AC;
+    flex-wrap: wrap;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .logo {
-    width: 40%;
-    height: 95%;
+    flex-basis: 15%;
+    flex-grow: 1;
+    height: auto;
+    
 }
 
 .logo img {
     max-width: 100%;
-    height: 100%;
+    height: auto;
+}
+
+nav {
+    flex-basis: 33%;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    margin: 10px 0;
 }
 
 nav ul {
-    display: inline-flex;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-right: 20%;
 }
 
 ul li {
     padding: 0 10px;
     list-style-type: none;
+    font-size: 32px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+.button-mode {
+    padding-right: 30px;
+}
+
+button {
+    font-size: 32px;
+    flex-basis: 25%;
+    flex-grow: 1;
+    cursor: pointer;
+    border-radius: 10%;
 }
 
 footer {
