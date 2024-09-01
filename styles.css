@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    padding: 0;
+    max-width: 100%;
 }
 
 /* Header Section for desktops */
@@ -15,18 +17,17 @@ body {
     flex-wrap: wrap;
     padding: 10px;
     box-sizing: border-box;
+    height: 100px;
 }
 
 .logo {
-    flex-basis: 15%;
     flex-grow: 1;
-    height: auto;
-    
+    max-height: 100px;
 }
 
 .logo img {
     max-width: 100%;
-    height: auto;
+    max-height: 100px;
 }
 
 nav {
@@ -60,7 +61,7 @@ li a {
 }
 
 button {
-    font-size: 32px;
+    font-size: 16px;
     flex-basis: 25%;
     flex-grow: 1;
     cursor: pointer;
@@ -126,15 +127,17 @@ footer {
     align-items: center;
     background-color: #D8C7AC;
     flex-wrap: wrap;
-    padding: 10px;
     box-sizing: border-box;
+    max-height: 100px;
 }
 
 .logo-footer {
     flex-basis: 20%;
-    height: auto;
+    max-height: 100px;
+    padding-left: 10px;
 }
 
 .logo-footer img {
     max-width: 100%;
+    max-height: 100px;
 }
