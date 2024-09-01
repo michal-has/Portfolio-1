@@ -69,8 +69,72 @@ button {
 
 /* About Me Section */
 
+main {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#about-me {
+    flex-basis: 50%;
+    flex-grow: 1;
+    padding: 0 10px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.about-me-text {
+    max-width: 70%;
+}
+
+.about-me-text h1 {
+    padding-bottom: 30px;
+    font-family: Raleway;
+    font-size: 32px;
+}
+
+.about-me-text p {
+    padding: 10px 0;
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+.about-me-photo {
+    flex-basis: 45%;
+    flex-grow: 2;
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.about-me-photo img {
+    max-width: 100%;
+    height: auto;
+}
+
 /* Footer Section */
 
 footer {
-    display: none;
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: flex-start;
+    height: auto;
+    align-items: center;
+    background-color: #D8C7AC;
+    flex-wrap: wrap;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.logo-footer {
+    flex-basis: 20%;
+    height: auto;
+}
+
+.logo-footer img {
+    max-width: 100%;
 }
